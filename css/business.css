@@ -1,0 +1,158 @@
+/*--------------MAIN STYLES FOR ALL PAGES---------*/
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 970px) {
+.mobile-ad{
+	display: block;
+	width: 280px;
+	position: fixed;
+	height: 80px;
+	border: 1px solid black;
+	bottom: 50px;
+	margin: 0px auto;
+	z-index: 1000;
+	cursor: pointer;
+	background-image: url(../images/Untitled-1.jpg);
+
+	}
+	.exit{
+		width: 20px;
+		margin: 5px;
+		float: right;
+		cursor: pointer;
+	}
+
+	.hide{
+		display: none;
+	}
+}
+
+
+.business-page{
+	background-image: url(../images/background-1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark .business-page{
+	background-image: url(../images/background-dark.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.business-page {
+	
+	height: auto;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.page-heading {
+	text-align: center;
+	font-size: 50px;
+	color: #000054;
+	font-family: "Teko", sans-serif;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.dark .page-heading{color: #c1c1c1;}
+
+.mobile-ad{
+	display: none;
+}
+
+.contact-contain {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.first-card,
+.second-card {
+	max-width: 450px;
+	width: auto;
+	height: auto;
+	margin: 20px 10px;
+}
+
+.contact-icons {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.contact-cards-headers {
+	font-size: 22pt;
+	color: #000054;
+	font-family: "Rajdhani", sans-serif;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	min-height: 60px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dark .contact-cards-headers{
+	color: #c90202;
+}
+
+.contact-cards-paragraph {
+	font-size: 14pt;
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	font-family: "Urbanist", sans-serif;
+	margin-bottom: 10px;
+}
+.dark .contact-cards-paragraph{
+	color: white;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.arrow {
+	width: 15px;
+	height: 15px;
+	margin-left: 8px;
+}
+
+.more-areas {
+	color: #c90202;
+	text-decoration: none;
+	font-size: 16pt;
+}
+.more-areas:hover {
+	color: #900202;
+	text-decoration: none;
+	font-size: 16pt;
+	transition: 0.5s;
+}

@@ -1,0 +1,136 @@
+/*--------------MAIN STYLES FOR ALL PAGES---------*/
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-size: 60px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+.business-page{
+	background-image: url(../../images/background-1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.dark .business-page{
+	background-image: url(../../images/background-dark.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.business-page {
+	
+	height: auto;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.page-heading {
+	text-align: center;
+	font-size: 60px;
+	color: #000054;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.dark .page-heading{color: #c1c1c1;}
+
+.contact-contain {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+}
+
+.first-card,
+.second-card {
+	max-width: 450px;
+	width: auto;
+	height: auto;
+	margin: 20px 10px;
+}
+
+.contact-icons {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.contact-cards-headers {
+	font-size: 20pt;
+	color: #000054;
+	font-family: "cairo", sans-serif;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	min-height: 60px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dark .contact-cards-headers{
+	color: #c90202;
+}
+
+.contact-cards-paragraph {
+	font-size: 16pt;
+	font-weight: 500;
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	font-family: "changa", sans-serif;
+	margin-bottom: 10px;
+}
+.dark .contact-cards-paragraph{
+	color: white;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.arrow {
+	width: 15px;
+	height: 15px;
+	margin-left: 8px;
+}
+
+.more-areas {
+	color: #c90202;
+	text-decoration: none;
+	font-size: 16pt;
+}
+.more-areas:hover {
+	color: #900202;
+	text-decoration: none;
+	font-size: 16pt;
+	transition: 0.5s;
+}

@@ -1,0 +1,399 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p,
+li,
+a {
+	font-family: 'Changa', sans-serif;
+	font-weight: 400;
+}
+
+
+
+
+
+
+/* Media Queries */
+/* 1- Mobile */
+
+@media (max-width: 768px) {
+
+	.vision-mission .big-vision-mission .vision-part,
+	.vision-mission .big-vision-mission .mission-part {
+		width: 550px;
+		display: flex;
+		height: auto !important;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		box-shadow: 1px 1px 10px rgba(170, 147, 147, 0.589);
+		border-radius: 10px;
+		padding-bottom: 30px;
+	}
+
+	.no-1,
+    .no-2,
+    .no-3 {
+	width: auto;
+	margin: 0 15px;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 13px;
+	border-radius: 10px 0 10px 0;
+	text-align: center;
+	direction: rtl;
+}
+.content-img {
+	width: 350px !important;
+	height: 450px !important;
+	margin: 0px !important;
+	border-radius: 10px;
+}
+.main .main-content .about-us img:hover{
+	width: 355px !important;
+	height: 455px !important;
+	margin: 0px !important;
+	border-radius: 10px;
+
+}
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	direction: rtl;
+}
+
+.main h1 {
+	font-size: 60px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-align: center;
+	padding: 70px 0;
+	padding-bottom: 30px;
+}
+
+.main h1,
+.vision-mission h1,
+.vision-mission .fa,
+.sectitle {
+	color: #000054;
+	font-weight: 600;
+	font-display: swap;
+}
+
+.sectitle{
+	color: #000054;
+	font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+.dark .sectitle{
+	color: #c90202;
+}
+
+.dark .main h1,
+.dark .vision-mission h1,
+.dark .vision-mission .fa,
+.dark .sec-paragraph {
+	color: #c1c1c1;
+}
+
+.dark .vision-mission .big-vision-mission,
+.dark .vision-mission {
+	background-color: #1c1c1c;
+}
+
+
+
+.main-content {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #c1c1c1 !important;
+}
+
+.dark .main-content{
+background-color: #181818 !important;
+}
+
+.main .main-content .buttons {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dark {
+	background-color: #161515;
+}
+
+.no-1,
+.no-2,
+.no-3 {
+	width: auto;
+	margin: 0 15px;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 10px 0 10px 0;
+	text-align: center;
+}
+
+.no-1,
+.no-2,
+.no-3 {
+	background-color: #c90202;
+	border: 2px solid black;
+	color: #fff;
+	font-weight: 600;
+}
+.no-1:hover,
+.no-2:hover,
+.no-3:hover {
+	color: #c90202;
+	background-color: transparent;
+	transition: 0.5s;
+	border-radius: 0px 10px 0px 10px;
+	font-weight: 600;
+}
+
+.dark .no-1,
+.dark .no-2,
+.dark .no-3 {
+	background-color: #c90202;
+	color: white;
+	border: 2px solid white;
+}
+
+.dark .no-1:hover,
+.dark .no-2:hover,
+.dark .no-3:hover {
+	color: white;
+	background-color: transparent;
+	transition: 0.5s;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.main .main-content .about-us,
+.main .main-content .vision,
+.main .main-content .mission {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding: 30px 0 50px 0;
+	flex-wrap: wrap;
+}
+
+.main-content {
+	background: white;
+}
+
+.content-img {
+	width: 400px;
+	height: 450px;
+	margin: 30px;
+	overflow: hidden !important;
+	border-radius: 10px;
+}
+
+.main .main-content .about-us img,
+.main .main-content .vision img,
+.main .main-content .mission img {
+	width: 400px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 2px;
+	box-shadow: 6px 6px 6px lightgray;
+	transition: 0.5s;
+}
+
+.main .main-content .about-us img:hover,
+.main .main-content .vision img:hover,
+.main .main-content .mission img:hover {
+	width: 450px;
+	height: 450px;
+	transition: 0.5s;
+}
+
+.main .main-content .about-us h3,
+.main .main-content .vision h3,
+.main .main-content .mission h3,
+.vision-mission .big-vision-mission .vision-part h3,
+.vision-mission .big-vision-mission .mission-part h3 {
+	font-size: 34px;
+	margin: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.discprition {
+	width: auto;
+	max-width: 550px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.sec-paragraph {
+	width: 90%;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	padding: 10px;
+	font-weight: 400;
+	font-family: 'cairo';
+}
+.sec-paragraph {
+	color: black;
+}
+
+.main .main-content .remove {
+	display: none;
+	transition: 1s;
+}
+
+.vision-mission {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	flex-direction: column;
+	background-color: #acacac;
+	direction: rtl;
+}
+
+.vision-mission h1 {
+	font-size: 60px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000054;
+}
+
+.vision-mission .big-vision-mission {
+	width: 95%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px 0;
+}
+
+.vision-mission .big-vision-mission .vision-part,
+.vision-mission .big-vision-mission .mission-part {
+	width: 550px;
+	display: flex;
+	height: 520px;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	box-shadow: 1px 1px 10px #000054;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.dark .vision-mission .big-vision-mission .vision-part,
+.dark .vision-mission .big-vision-mission .mission-part {
+	box-shadow: 1px 1px 10px #c1c1c1;
+}
+
+.vision-mission-image {
+	height: 100px;
+	margin-top: 50px;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.arrow {
+	width: 13px !important;
+	height: 13px !important;
+	margin-right: 10px;
+	box-shadow: none !important;
+}
+
+.more-areas {
+	text-decoration: none;
+	color: #c90202;
+	font-size: 18px;
+	padding-top: 20px;
+	font-weight: 600;
+}
+
+.more-areas:hover {
+	text-decoration: none;
+	color: #900202;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+	.main .main-content .buttons {
+		width: 310px;
+	}
+
+	.no-1,
+	.no-2,
+	.no-3 {
+		margin: 0 5px;
+	}
+}
+
+.vision-part,
+.mission-part {
+	margin: 30px 0;
+}
+
+@media screen and (max-width: 280px) {
+	.main .main-content .buttons {
+		width: 280px;
+	}
+
+	.no-1,
+	.no-2,
+	.no-3 {
+		margin: 0 1px;
+		padding: 15px 2px;
+	}
+}
