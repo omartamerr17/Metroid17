@@ -1,2 +1,0 @@
-# Metroid17
-Metroid
